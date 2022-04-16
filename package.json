@@ -1,0 +1,23 @@
+{
+  "name": "blue_edtech_mod3_proj_1",
+  "version": "1.0.0",
+  "description": "Back-end CRUD memória (Read All e Read By Id)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devitorone/blue_edtech_mod3_proj_1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devitorone/blue_edtech_mod3_proj_1/issues"
+  },
+  "homepage": "https://github.com/devitorone/blue_edtech_mod3_proj_1#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
