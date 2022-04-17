@@ -1,17 +1,14 @@
 const charService = require('../services/char.service');
 
-const findCharController = (req,res)=>{
-    const allChar = charService.findCharService();
-    res.send(allChar);
+const findCharController = (req, res) => {
+  res.send(charService.findCharService());
 };
 
-const findCharByIdController = (req,res)=>{
-    const idParam = req.params.id;
-    const chosenChar = charService.findCharService(idParam);
-    res.send(chosenChar);
+const findCharByIdController = (req, res) => {
+  res.send(charService.findCharService(req.params.id));
 };
 
 module.exports = {
-    findCharController,
-    findCharByIdController,
+  findCharController,
+  findCharByIdController,
 };
